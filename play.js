@@ -3,6 +3,8 @@
 
   var number = _.sample(_.keys(app.numbers));
   $("#question").html(number);
+  disableAutoComplete();
+
   $("form#check-number").on("submit", function(event) {
     event.preventDefault();
 
@@ -21,7 +23,11 @@
       $(".alert.alert-danger").removeClass("d-none");
       $("#danger-help-block").html(helpText(answers));
     }
-  })
+  });
+
+  function disableAutoComplete() {
+    document.getElementById("number").setAttribute("name", Math.random());
+  }
 
   function helpText(answers) {
     return (answers[0] + (answers[1] ? (" (" + answers[1] + ")") : ""));
