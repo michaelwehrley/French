@@ -11,7 +11,7 @@
     var submittedAnswer = $(event.currentTarget).find("#number").val();
     var answers = app.numbers[Number(number)];
 
-    if (submittedAnswer === answers[0]) {
+    if (submittedAnswer.toLowerCase() === answers[0].toLowerCase()) {
       $(".alert.alert-success").removeClass("d-none");
       $("a#continue").removeClass("d-none");
       $(".alert.alert-danger").addClass("d-none");
@@ -22,6 +22,7 @@
       $(".alert.alert-success").addClass("d-none");
       $(".alert.alert-danger").removeClass("d-none");
       $("#danger-help-block").html(helpText(answers));
+      disableAutoComplete();
     }
   });
 
