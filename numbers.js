@@ -12,6 +12,7 @@
     7: ["sept", "set"],
     8: ["huit", "wheet"],
     9: ["neuf", "nurf"],
+
     10: ["dix", "deese"],
     11: ["onze", "onz"],
     12: ["douze", "dooz"],
@@ -22,6 +23,7 @@
     17: ["dix-sept", "deese-set"],
     18: ["dix-huit", "dees-wheet"],
     19: ["dix-neuf", "dees-nurf"],
+
     20: ["vingt", "vahn"],
     21: ["vingt et un", "vahn-tay-ahn"],
     22: ["vingt-deux", "vahn-duhr"],
@@ -32,6 +34,7 @@
     27: ["vingt-sept", "vahn-set"],
     28: ["vingt-huit", "vahn-wheet"],
     29: ["vingt-neuf", "vahn-nurf"],
+
     30: ["trente", "trawnt"],
     31: ["trente et un", "trawnt-tay-ahn"],
     32: ["trente-deux", "trawnt-duhr"],
@@ -42,6 +45,7 @@
     37: ["trente-sept", "trawnt-set"],
     38: ["trente-huit", "trawnt-wheet"],
     39: ["trente-neuf", "trawnt-nurf"],
+
     40: ["quarante", "kuh-rawnt"],
     41: ["quarante et un", "kuh-rawnt-tay-ahn"],
     42: ["quarante-deux", "kuh-rawnt-duhr"],
@@ -52,16 +56,18 @@
     47: ["quarante-sept", "kuh-rawnt-set"],
     48: ["quarante-huit", "kuh-rawnt-wheet"],
     49: ["quarante-neuf", "kuh-rawnt-nurf"],
+
     50: ["cinquante", "sank-awnt"],
     51: ["cinquante et un", "sank-awnt-tay-ahn"],
     52: ["cinquante-deux", "sank-awnt-duhr"],
     53: ["cinquante-trois", "sank-awnt-twah"],
     54: ["cinquante-quatre", "sank-awnt-katr"],
     55: ["cinquante-cinq", "sank-awnt-sank"],
-    56: ["cinquante-six sank-awnt-seese"],
+    56: ["cinquante-six", "sank-awnt-seese"],
     57: ["cinquante-sept", "sank-awnt-set"],
     58: ["cinquante-huit", "sank-awnt-wheet"],
     59: ["cinquante-neuf", "sank-awnt-nurf"],
+
     60: ["soixante", "swah-sawnt"],
     61: ["soixante et un", "swah-sawnt-tay-ahn"],
     62: ["soixante-deux", "swah-sawnt-duhr"],
@@ -72,6 +78,7 @@
     67: ["soixante-sept", "swah-sawnt-set"],
     68: ["soixante-huit", "swah-sawnt-wheet"],
     69: ["soixante-neuf", "swah-sawnt-nurf"],
+
     70: ["soixante-dix", "swah-sawnt-deese"],
     71: ["soixante et onze", "swah-sawnt-tay-uhn"],
     72: ["soixante-douze", "swah-sawnt-dooz"],
@@ -82,6 +89,7 @@
     77: ["soixante-dix-sept", "swah-sawnt-deese-set"],
     78: ["soixante-dix-huit", "swah-sawnt-dees-wheet"],
     79: ["soixante-dix-neuf", "swah-sawnt-dees-nurf"],
+
     80: ["quatre-vingts", "ka-truh-vahn"],
     81: ["quatre-vinght-un", "ka-truh-vahn-tay-ahn"],
     82: ["quatre-vingt-deux", "ka-truh-vahn-duhr"],
@@ -92,6 +100,7 @@
     87: ["quatre-vingt-sept", "ka-truh-vahn-set"],
     88: ["quatre-vingt-huit", "ka-truh-vahn-wheet"],
     89: ["quatre-vingt-neuf", "ka-truh-vahn-nurf"],
+
     90: ["quatre-vingt-dix", "ka-truh-vahn-deese"],
     91: ["quatre-vingt-onze", "ka-truh-vahn-onz"],
     92: ["quatre-vingt-douze", "ka-truh-vahn-dooz"],
@@ -102,16 +111,30 @@
     97: ["quatre-vingt-dix-sept", "ka-truh-vahn-deese-set"],
     98: ["quatre-vingt-dix-huit", "ka-truh-vahn-dees-wheet"],
     99: ["quatre-vingt-dix-neuf", "ka-truh-vahn-dees-nurf"],
+
     100: ["cent", "sawnt"],
-    101: ["cent un", ""],
-    110: ["cent dix", ""],
-    111: ["cent onze", ""],
-    175: ["cent soixante quinze", ""],
-    200: ["deux cents", ""],
-    225: ["deux cents vingt-cinq", ""],
-    1000: ["mille", ""],
-    10000: ["dix mille", ""],
-    100000: ["cent mille", ""],
-    1000000: ["un million", ""]
+    101: ["cent un"],
+    102: ["cent deux"],
+    103: ["cent trois"],
+    104: ["cent quatre"],
+    105: ["cent cinq"],
+    106: ["cent six"],
+    107: ["cent sept"],
+    108: ["cent huit"],
+    109: ["cent neuf"],
+
+    110: ["cent dix"],
+    111: ["cent onze"],
+    175: ["cent soixante quinze"],
+    200: ["deux cents"],
+    225: ["deux cents vingt-cinq"],
+
+    1000: ["mille"],
+    2000: ["deux mille"],
+    3010: ["trois mille dix"],
+
+    10000: ["dix mille"],
+    100000: ["cent mille"],
+    1000000: ["un million"]
   }
 }(FrenchApp));
