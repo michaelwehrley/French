@@ -7,10 +7,25 @@
   </head>
   <body>
     <div class="container-fluid">
-      <h1>Nombres</h1>
-      <div>
-        <div id="number"></div>
+      <h1 class="display-1" id="question">0</h1>
+      <div class="alert alert-success d-none" role="alert">
+        Très bien!
+        <small id="success-help-block" class="form-text text-muted"></small>
       </div>
+      <div class="alert alert-danger d-none" role="alert">
+        Non non.
+        <small id="danger-help-block" class="form-text text-muted"></small>
+      </div>
+
+      <form id="check-number">
+        <div class="form-group">
+          <label class="d-none" for="number"></label>
+          <input type="text" class="form-control" id="number" aria-describedby="number">
+        </div>
+        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+        <a class="btn btn-success d-none" id="continue" href="./index.html" role="button">Continue</a>
+        <a class="btn btn-link" id="skip" href="./index.html">Skip</a>
+      </form>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
