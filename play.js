@@ -11,15 +11,19 @@
 
     if (submittedAnswer === answers[0]) {
       $(".alert.alert-success").removeClass("d-none");
-      $(".alert.alert-danger").addClass("d-none");
       $("a#continue").removeClass("d-none");
+      $(".alert.alert-danger").addClass("d-none");
       $("button#submit").addClass("d-none");
       $("a#skip").addClass("d-none");
-      $("#success-help-block").html(answers[0] + (answers[1] ? (" (" + answers[1] + ")") : ""));
+      $("#success-help-block").html(helpText(answers));
     } else {
       $(".alert.alert-success").addClass("d-none");
       $(".alert.alert-danger").removeClass("d-none");
-      $("#danger-help-block").html(answers[0] + (answers[1] ? (" (" + answers[1] + ")") : ""));
+      $("#danger-help-block").html(helpText(answers));
     }
   })
+
+  function helpText(answers) {
+    return (answers[0] + (answers[1] ? (" (" + answers[1] + ")") : ""));
+  }
 }(FrenchApp));
