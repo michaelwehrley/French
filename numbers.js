@@ -91,7 +91,7 @@
     79: ["soixante-dix-neuf", "swah-sawnt-dees-nurf"],
 
     80: ["quatre-vingts", "ka-truh-vahn"],
-    81: ["quatre-vinght-un", "ka-truh-vahn-tay-ahn"],
+    81: ["quatre-vingt-un", "ka-truh-vahn-tay-ahn"],
     82: ["quatre-vingt-deux", "ka-truh-vahn-duhr"],
     83: ["quatre-vingt-trois", "ka-truh-vahn-twah"],
     84: ["quatre-vingt-quatre", "ka-truh-vahn-katr"],
