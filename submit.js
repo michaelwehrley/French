@@ -5,25 +5,21 @@
   $("#question").html(number);
   disableAutoComplete();
 
-  $("form#check-number").on("submit", function(event) {
+  $("form#submit-number").on("submit", function(event) {
     event.preventDefault();
 
     var submittedAnswer = $(event.currentTarget).find("#number").val();
     var answers = app.numbers[Number(number)];
 
     if (submittedAnswer.toLowerCase() === answers[0].toLowerCase()) {
-      $(".alert.alert-success").removeClass("d-none");
-      $("a#continue").removeClass("d-none");
-      $(".alert.alert-danger").addClass("d-none");
-      $("button#submit").addClass("d-none");
-      $("a#skip").addClass("d-none");
-      $("#success-help-block").html(helpText(answers));
+      $(".alert.alert-success, a#continue").removeClass("d-none");
+      $(".alert.alert-danger, button#submit, a#skip").addClass("d-none");
     } else {
       $(".alert.alert-success").addClass("d-none");
       $(".alert.alert-danger").removeClass("d-none");
-      $("#danger-help-block").html(helpText(answers));
       disableAutoComplete();
     }
+    $(".help-block").html(helpText(answers));
   });
 
   function disableAutoComplete() {
