@@ -22,7 +22,7 @@
   }
 
   function play(currentQuestion) {
-    var answers = app.NUMBERS[currentQuestion];
+    var answers = app.NUMBERS[currentQuestion]; // TODO: Update with "sayings"
 
     displayQuestion(currentQuestion, answers);
     clearAnswer();
@@ -52,7 +52,7 @@
       event.preventDefault();
 
       reset();
-      play(app.question());
+      play(app.getQuestion());
     });
   }
 
@@ -68,7 +68,7 @@
       event.preventDefault();
 
       reset();
-      play(app.question());
+      play(app.getQuestion());
     });
   }
 

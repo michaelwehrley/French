@@ -148,5 +148,7 @@
     return countingArray.pop();
   }
 
+  app.CATEGORIES["counting"] = app.count
+  app.CATEGORIES["numbers"] = app.randomNumber
   app.NUMBERS = NUMBERS;
 }(FrenchApp));
