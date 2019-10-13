@@ -1,7 +1,7 @@
 (function(app) {
   "use strict";
 
-  var numbers = {
+  var NUMBERS = {
     "0": ["zéro", "zay-roh"],
     "1": ["un", "ahn"],
     "2": ["deux", "duhr"],
@@ -138,8 +138,15 @@
     "1000000": ["un million"]
   }
 
+  var countingArray = _.keys(NUMBERS).reverse();
+
   app.randomNumber = function randomNumber() {
-    return _.sample(_.keys(app.numbers));
+    return _.sample(_.keys(NUMBERS));
   }
-  app.numbers = numbers;
+
+  app.count = function count() {
+    return countingArray.pop();
+  }
+
+  app.NUMBERS = NUMBERS;
 }(FrenchApp));
