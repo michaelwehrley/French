@@ -22,11 +22,12 @@
   }
 
   function play(currentQuestion) {
-    var answers = app.numbers[Number(currentQuestion)];
+    var answers = app.NUMBERS[currentQuestion]; // TODO: Update with "sayings"
 
     displayQuestion(currentQuestion, answers);
     clearAnswer();
     disableAutoComplete();
+    $("#answer").focus();
     skipQuestion();
 
     $("form#submit-answer").off("submit").on("submit", function(event) {
@@ -37,7 +38,7 @@
         $(".alert-danger").addClass("d-none");
         $("button#submit").addClass("d-none");
         $(".alert-success").removeClass("d-none");
-        $("a#next").removeClass("d-none");
+        $("a#next").removeClass("d-none").focus();
         nextQuestion();
       } else {
         $(".alert-danger").removeClass("d-none");
@@ -51,7 +52,7 @@
       event.preventDefault();
 
       reset();
-      play(app.randomNumber());
+      play(app.getQuestion());
     });
   }
 
@@ -67,7 +68,7 @@
       event.preventDefault();
 
       reset();
-      play(app.randomNumber());
+      play(app.getQuestion());
     });
   }
 
