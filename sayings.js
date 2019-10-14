@@ -9,6 +9,6 @@
     return _.sample(_.keys(app.sayings));
   }
 
-  app.CATEGORIES["sayings"] = app.randomSaying
   app.SAYINGS = SAYINGS;
+  app.TOPICS["sayings"] = app.randomSaying
 }(FrenchApp));
