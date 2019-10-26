@@ -148,7 +148,12 @@
     return countingArray.pop();
   }
 
-  app.NUMBERS = NUMBERS;
-  app.TOPICS["counting"] = app.count
-  app.TOPICS["numbers"] = app.randomNumber
+  app.TOPICS["counting"] = {
+    questions: NUMBERS,
+    getFn: app.count
+  }
+  app.TOPICS["numbers"] = {
+    questions: NUMBERS,
+    getFn: app.randomNumber
+  }
 }(FrenchApp));

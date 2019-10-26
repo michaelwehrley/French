@@ -8,7 +8,12 @@
   }
 
   function playTopic(selectedTopic) {
-    app.getQuestion = app.TOPICS[currentTopic(selectedTopic)];
+    var topicInfo = app.TOPICS[currentTopic(selectedTopic)];
+
+    app.topicQuestions = function() {
+      return topicInfo.questions;
+    };
+    app.getQuestion = topicInfo.getFn;
     app.play(app.getQuestion());
   }
 
@@ -19,5 +24,5 @@
     playTopic(topic); // Currently acts like a "skip"
   });
 
- playTopic();
+  playTopic(); //
 }(FrenchApp))

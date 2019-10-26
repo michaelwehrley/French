@@ -42,6 +42,8 @@
     return _.sample(_.keys(SAYINGS));
   }
 
-  app.SAYINGS = SAYINGS;
-  app.TOPICS["sayings"] = app.randomSaying
+  app.TOPICS["sayings"] = {
+    questions: SAYINGS,
+    getFn: app.randomSaying
+  }
 }(FrenchApp));
