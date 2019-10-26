@@ -22,7 +22,7 @@
   }
 
   function play(currentQuestion) {
-    var answers = app.NUMBERS[currentQuestion]; // TODO: Update with "sayings"
+    var answers = app.topicQuestions()[currentQuestion];
 
     displayQuestion(currentQuestion, answers);
     clearAnswer();
