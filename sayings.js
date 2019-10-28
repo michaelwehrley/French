@@ -35,6 +35,34 @@
     "What is his telephone number?": [
       "Quel est son numéro de téléphone?",
       "Quel => un numéro; son => his; est => être/'to be'"
+    ],
+    "I live in Paris.": [
+      "J'habite à Paris.",
+      "J'habite => I live; à => in"
+    ],
+    "I live at 6 Quai Saint-Michel, Paris, France": [
+      "J'habite au 6 quai Saint-Michel, à Paris, en France",
+      "J'habite => I live;\
+       à => preposition of location [à la mansion]\
+       au => Je vais au camion (masculine/singular);\
+       aux => Je vais aux bois (plural);\
+       quai => riverbank;"
+    ],
+    "Who works in Paris?": [
+      "Qui travaille à Paris?",
+      "Qui => Who; travaille => travailler; à preposition of location [à la mansion]"
+    ],
+    "Who works in a restaurant?": [
+      "Qui travaille dans un restaurant?",
+      "Qui => Who; travaille => travailler; un [masculine] restaurant => a restaurant"
+    ],
+    "What is Sophia's phone number": [
+      "Quel est le numéro de téléphone de Sophia",
+      "Quel => What [masculine], est => être/'to be' le => the [masculine article]"
+    ],
+    "What is Romain's email address": [
+      "Quelle est l'adresse e-mail de Romain",
+      "Quelle => What [feminine], est => être/'to be' la => the [feminine article]"
     ]
   };
 
