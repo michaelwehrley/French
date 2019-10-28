@@ -7,6 +7,7 @@
     return selectedTopic && selectedTopic.substr(1) || window.location.hash.substr(1) || DEFAULT_TOPIC;
   }
 
+  // Not happy with this setup...
   function playTopic(selectedTopic) {
     var topicInfo = app.TOPICS[currentTopic(selectedTopic)];
 
