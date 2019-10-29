@@ -20,8 +20,8 @@
     // so interrogative adjectives are
     // adjectives used to ask the questions
     // "what," "which," and how "much/many." 
-    "What is the profession of Nicolas Gautier?": [
-      "Quelle est la profession de Nicolas Gautier?",
+    "What is the profession of Nicolas?": [
+      "Quelle est la profession de Nicolas?",
       "Quelle => la profession; est => être/'to be'"
     ],
     "What is it that Nicolas wants?": [
@@ -65,7 +65,7 @@
       "Quelle => What [feminine], est => être/'to be'; la => the [feminine article]"
     ],
     "And what is his email address?": [
-      "Et quelle est son adresse e-mail",
+      "Et quelle est son adresse e-mail?",
       "Et => And; quelle => what [feminine]; est => être/'to be'; son => his; l'adresse e-mail => e-mail [female]"
     ],
     "Excuse me, do you have a business card?": [
@@ -101,7 +101,7 @@
       "Tu aimes ça?",
       "Tu aimes => Aimer/'to ❤️/to like'; ça => this/that"
     ],
-    "Yes I like that.": [
+    "Yes, I like that.": [
       "Oui, j'aime ça.",
       "j'aime => Aimer/'to ❤️/to like'; ça => this/that"
     ],
