@@ -132,6 +132,14 @@
     "I love to surf.": [
       "J'aime beaucoup le surf",
       "J'aime => Aimer/'to ❤️'; J'aime beaucoup (++)"
+    ],
+    "How many TV channels are there on the Box?": [
+      "Il y a combien de chaînes de télévision sur la Box?",
+      "Il y => there is; a => avoir/'to have'; combien de => how many ['de' when counting]"
+    ],
+    "Who really loves movies?": [
+      "Qui aime beaucoup les films?",
+      "qui => who; aime beaucoup => Aimer/'to ❤️/to like' (++);"
     ]
   };
 
