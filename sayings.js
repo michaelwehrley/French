@@ -91,6 +91,47 @@
     "Please.": [
       "S'il vous plaît.",
       "Plaire => 'to please'; Vous plaire/'to please' => to please you; s'il => si + il => if it; literally: if it pleases you."
+    ],
+    "In the morning I get up.": [
+      "Le matin je me lève.",
+      "Le matin => the morning; lève => se lèver/'get up'"
+    ],
+    // Chapter 4
+    "You like this?": [
+      "Tu aimes ça?",
+      "Tu aimes => Aimer/'to ❤️/to like'; ça => this/that"
+    ],
+    "Yes I like that.": [
+      "Oui, j'aime ça.",
+      "j'aime => Aimer/'to ❤️/to like'; ça => this/that"
+    ],
+    "I like movies.": [
+      "J'aime bien les films.",
+      "J'aime => Aimer/'to ❤️/to like'"
+    ],
+    "Do you like cinema?": [
+      "Tu aimes bien le cinéma?",
+      "Tu aimes => Aimer/'to ❤️/to like'; aimes bien (+)"
+    ],
+    "Yes, I like most French movies.": [
+      "Oui, j'aime surtout les films français.",
+      "Tu aimes => Aimer/'to ❤️/to like'; aimes bien (+); surtout => mostly"
+    ],
+    "My wife and I, we love sports, like football.": [
+      "Ma femme et moi, nous aimons beaucoup le sport, comme le football.",
+      "nous aimons => Aimer/'to ❤️' => we love; comme => like"
+    ],
+    "I hate swimming.": [
+      "Je déteste la natation.",
+      "déteste => détester/'to hate'; la natation => swimming"
+    ],
+    "Which sport is it that you like?": [
+      "Quel sport est-ce que tu aimes?",
+      "est-ce que => is it that; tu aimes => Aimer/'to ❤️'"
+    ],
+    "I love to surf.": [
+      "J'aime beaucoup le surf",
+      "J'aime => Aimer/'to ❤️'; J'aime beaucoup (++)"
     ]
   };
 
