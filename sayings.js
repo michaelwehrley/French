@@ -1,11 +1,85 @@
 (function(app) {
   "use strict";
 
+  // interrogative adjectives:
+  // An adjective is a word that modifies a noun,
+  // and interrogative means questioning,
+  // so interrogative adjectives are
+  // adjectives used to ask the questions
+  // "what," "which," and how "much/many."
   var SAYINGS = {
+    // Other
     "It works!": [
       "Ça marche!",
       "Ça => It; marche => marcher/'to walk'"
     ],
+    "That is a cat.": [
+      "C'est un chat.",
+      "C'est => Ce + est => It is; Ce => *specific* that/this; est => être/'to be'; un chat [masculine]"
+    ],
+    "He is very handsome.": [
+      "Il est très beau.",
+      "Il => he; est => être/'to be'"
+    ],
+    "She is beautiful.": [
+      "Elle est belle.",
+      "Elle => she; est => être/'to be'"
+    ],
+    "Please.": [
+      "S'il vous plaît.",
+      "Plaire => 'to please'; Vous plaire/'to please' => to please you; s'il => si + il => if it; literally: if it pleases you."
+    ],
+    "In the morning I get up.": [
+      "Le matin je me lève.",
+      "Le matin => the morning; lève => se lèver/'get up'"
+    ],
+    "That's life!": [
+      "C'est la vie!",
+      "c'est => ce + est [it]/il est [gender of noun]/ce sont [plural noun] => être/'to be'"
+    ],
+    // Chapter 0
+    "Hello, my name is Michel.": [
+      "Bonjour, je m'appelle Michel.",
+      "je m'appelle => s'appeler/'to be called'"
+    ],
+    "Nice to meet you Nicolas. Nice to meet you Céline.": [
+      "Enchantée Nicolas. Enchanté Céline.",
+      "Enchantée (feminine) v. Enchanté (masculine)"
+    ],
+    "How are you Julien? Very good, How are you doing Cvline? I'm okay.": [
+      "Comment allez-vous Julien? Très bien, et vous Céline, ça va? Ça va.",
+      "va => aller/'to go'"
+    ],
+    "I do not know.": [
+      "Je ne sais pas.",
+      "je sais => savoir/'to know'; to negate: ...ne ___ pas..."
+    ],
+    // Chapter 1
+    "Good evening Ma'am. Good evening Sir.": [
+      "Bonsoir Madame. Bonsoir Monsieur."
+    ],
+    "Me, I'm Isabelle, nice to meet you.": [
+      "Moi, c'est Isabelle, enchantée",
+      "c'est => ce + est [it]/il est [gender of noun]/ce sont [plural noun] => être/'to be'"
+    ],
+    "My name is Jean. And what's your name?": [
+      "Je m'appelle Jean. Et vous, comment vous appelez-vous?",
+      "Et => And; vous => you; Je m'appelle & vous appelez-vous => s'appeler/'to be called'"
+    ],
+    // Chapter 2
+    "What is the profession of Nicolas?": [
+      "Quelle est la profession de Nicolas?",
+      "Quelle => la profession; est => être/'to be'"
+    ],
+    "What is her nationality?": [
+      "Quelle est sa nationalité?",
+      "Quelle => une nationalité; sa => her; est => être/'to be'"
+    ],
+    "Who works in a restaurant?": [
+      "Qui travaille dans un restaurant?",
+      "Qui => Who; travaille => travailler/'to work'; un [masculine] restaurant => a restaurant"
+    ],
+    // Chapter 3
     "Say, do you have a mobile number?": [
       "Dis, tu as un numéro de portable?",
       "tu as => avoir/'to have'; un numéro de portable"
@@ -14,23 +88,9 @@
       "J'ai un téléphone fixe, mais je n'ai pas de téléphone portable.",
       "J'ai/ je n'ai pas => avoir/'to have'; téléphone portable"
     ],
-    // interrogative adjectives:
-    // An adjective is a word that modifies a noun,
-    // and interrogative means questioning,
-    // so interrogative adjectives are
-    // adjectives used to ask the questions
-    // "what," "which," and how "much/many." 
-    "What is the profession of Nicolas?": [
-      "Quelle est la profession de Nicolas?",
-      "Quelle => la profession; est => être/'to be'"
-    ],
     "What is it that Nicolas wants?": [
       "Qu'est-ce que Nicolas voudrait?",
       "qu'est-ce que => non-interrogative adjective for 'what'; voudrait => vouloir/'to want'"
-    ],
-    "What is her nationality?": [
-      "Quelle est sa nationalité?",
-      "Quelle => une nationalité; sa => her; est => être/'to be'"
     ],
     "What is his telephone number?": [
       "Quel est son numéro de téléphone?",
@@ -52,10 +112,6 @@
       "Qui travaille à Paris?",
       "Qui => Who; travaille => travailler/'to work'; à preposition of location [à la mansion]"
     ],
-    "Who works in a restaurant?": [
-      "Qui travaille dans un restaurant?",
-      "Qui => Who; travaille => travailler/'to work'; un [masculine] restaurant => a restaurant"
-    ],
     "What is Sophia's phone number?": [
       "Quel est le numéro de téléphone de Sophia?",
       "Quel => What [masculine], est => être/'to be'; le => the [masculine article]"
@@ -75,26 +131,6 @@
     "I have a business card.": [
       "J'ai une carte de visite.",
       "J'ai => avoir/'to have'; une carte => feminine"
-    ],
-    "That is a cat.": [
-      "C'est un chat.",
-      "C'est => Ce + est => It is; Ce => *specific* that/this; est => être/'to be'; un chat [masculine]"
-    ],
-    "He is very handsome.": [
-      "Il est très beau.",
-      "Il => he; est => être/'to be'"
-    ],
-    "She is beautiful.": [
-      "Elle est belle.",
-      "Elle => she; est => être/'to be'"
-    ],
-    "Please.": [
-      "S'il vous plaît.",
-      "Plaire => 'to please'; Vous plaire/'to please' => to please you; s'il => si + il => if it; literally: if it pleases you."
-    ],
-    "In the morning I get up.": [
-      "Le matin je me lève.",
-      "Le matin => the morning; lève => se lèver/'get up'"
     ],
     // Chapter 4
     "You like this?": [

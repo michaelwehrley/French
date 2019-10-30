@@ -45,6 +45,12 @@
         $(".alert-success").addClass("d-none");
       }
     });
+
+    $(".alert").off("close.bs.alert").on("close.bs.alert", function (event) {
+      event.preventDefault();
+
+      $(event.currentTarget).addClass("d-none");
+    });
   }
 
   function nextQuestion() {
