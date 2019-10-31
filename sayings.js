@@ -46,13 +46,25 @@
       "Enchantée Nicolas. Enchanté Céline.",
       "Enchantée (feminine) v. Enchanté (masculine)"
     ],
-    "How are you Julien? Very good, How are you doing Cvline? I'm okay.": [
+    "How are you Julien? Very good, How are you doing Céline? I'm okay.": [
       "Comment allez-vous Julien? Très bien, et vous Céline, ça va? Ça va.",
       "va => aller/'to go'"
     ],
     "I do not know.": [
       "Je ne sais pas.",
       "je sais => savoir/'to know'; to negate: ...ne ___ pas..."
+    ],
+    "Sorry, how do you spell Leroy?": [
+      "Pardon, ça s'écrit comment Leroy?",
+      "ça => it; écrire => to write/'to write'"
+    ],
+    "Could you please repeat that?": [
+      "Vous pouvez répéter, s'il vous plaît?",
+      "pouvoir/'to be able [to do something]'; répéter/'to repeat'"
+    ],
+    "Excuse me, how do you say 'welcome' in French?": [
+      "Excusez-moi, comment dit-on 'welcome' en français?",
+      "dit-on => 'they say'; dire/'to say'"
     ],
     // Chapter 1
     "Good evening Ma'am. Good evening Sir.": [
@@ -80,7 +92,7 @@
       "Qui => Who; travaille => travailler/'to work'; un [masculine] restaurant => a restaurant"
     ],
     // Chapter 3
-    "Say, do you have a mobile number?": [
+    "Say, do you have a cell phone number?": [
       "Dis, tu as un numéro de portable?",
       "tu as => avoir/'to have'; un numéro de portable"
     ],
@@ -100,8 +112,8 @@
       "J'habite à Paris.",
       "J'habite => habiter/'I live'; à => in"
     ],
-    "I live at 6 Quai Saint-Michel, Paris, France.": [
-      "J'habite au 6 quai Saint-Michel, à Paris, en France.",
+    "I live at six Quai Saint-Michel, Paris, France.": [
+      "J'habite au six Quai Saint-Michel, à Paris, en France.",
       "J'habite => habiter/'I live';\
        à => preposition of location [à la mansion]\
        au => Je vais au camion (masculine/singular);\
