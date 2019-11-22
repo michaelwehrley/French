@@ -15,7 +15,14 @@
   // Chapter 6
   var LESSON = {
     "Do you have a car, Mr. Legrand?": ["Est-ce que vous avez une voiture, Monsieur Legrand?"],
-    "No, I don't have a car.": ["Non, je n'ai pas de voiture.", "avoir/j'ai"]
+    "No, I don't have a car.": ["Non, je n'ai pas de voiture.", "avoir/j'ai"],
+    "You don't have a car? (formal)": ["Vous n'avez pas de voiture?"],
+    // "No, I am generally pleased, but it's not practical. By cons, I have a motorcycle.":
+    //   ["Non. J'aimerias bien, mais ce n'est pas pratique. Par contre, j'ai une moto."],
+    "What would you like for Christmas? (informal)": ["Qu'est-ce que tu voudrais pour Noël?"],
+    "What is France's favorite animal?": ["Quel est l'animal préféré?"],
+    "I do not know.": ["Je ne sais pas."],
+    "I would like a computer.": ["Je voudrais un ordinateur."]
   };
 
   app.randomLesson = function randomLesson() {
