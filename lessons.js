@@ -8,7 +8,7 @@
     "Do you like classical music? (informal)": ["Est-ce que tu aime la musique classique?"],
     "Yes, I like it, especially the French cinema, but I also like the Japanese cinema.":
       ["Oui, j'aime bien ça, surtout le cinéma français, mais j'aime aussi le cinéma japonais."],
-    "No I do not like it; I prefer the theater.": ["Non, je n'aime pas ça; je préfère le théâtre."]
+    "No, I do not like it; I prefer the theater.": ["Non, je n'aime pas ça; je préfère le théâtre."]
   };
 
   app.randomLesson = function randomLesson() {
