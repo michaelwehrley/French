@@ -18,7 +18,7 @@
     app.play(app.getQuestion());
   }
 
-  $(".nav-link").on("click", function(event) {
+  $(".nav-link, .dropdown-item").on("click", function(event) {
     event.preventDefault();
     var topic = event.currentTarget.getAttribute("href");
 

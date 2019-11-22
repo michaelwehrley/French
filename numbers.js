@@ -2,7 +2,7 @@
   "use strict";
 
   var NUMBERS = {
-    "0": ["zéro", "zay-roh"],
+    "0": ["zéro", "zeRo"],
     "1": ["un", "ahn"],
     "2": ["deux", "duhr"],
     "3": ["trois", "twah"],
